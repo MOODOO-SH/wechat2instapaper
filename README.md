@@ -34,7 +34,7 @@ You get consumer key in: [Register New OAuth Application][3]
 Use WeChat to scan the  QR code named qr.png and confirm to login.
 
 - 6.Share
-Use another WeChat account to send a link to the logined account.And it would preservate your link to Instapaper.
+Use another WeChat account to send a link to the logined account.And it would save your link to Instapaper.
 
 - 7.More
 Learn more about me and my project on my blog: [ChanTalk][4]
