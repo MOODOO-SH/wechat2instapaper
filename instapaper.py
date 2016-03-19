@@ -96,8 +96,8 @@ class Instapaper(object):
         for item in items:
             if item.get("type") == "error":
                 raise Exception(item.get("message"))
-                return 0,marks
+                return 0
             elif item.get("type") == "bookmark":
                 marks.append(Bookmark(self, item))
-                return 1,marks
+                return 1
 
