@@ -3,8 +3,8 @@
 ## Version 0.2
 ## Update:
 * 1.Change the frame into [WeixinBot][1].
-* 2.Add a new command “#insta” to push all your link to your instapaper.
-* 3.Add a new command “#list” whose function is able to show all your list.
+* 2.Add a new command “#insta” to push all your links to your instapaper.
+* 3.Add a new command “#list” whose function is able to show all your items.
 * 4.Add a new command “#del”+number whose function is able to delect the item of your list.
 * 5.Add a new command “#num” whose function is able to show the number of your list.
 
@@ -19,7 +19,7 @@
 
 Python 2.7
 
-Modules: os、sys、urllib2、urlparse、simplejson、oauth2、lxml、urllib、HTMLParser、re、sys、traceback
+
 
 ## 3.Install
 
@@ -42,11 +42,11 @@ You can get consumer key in: [Register New OAuth Application][4]
 
 `$ python wechat2instapaper.py`
 
-Use WeChat to scan the  QR code named qr.png and confirm to login.
+Use WeChat to scan the  QR code and confirm to login.
 
 ## 6.Share
 
-Use another WeChat account to send a link to the logined account.And it would save your link to Instapaper.
+Use another WeChat account to send a link to the logined account.And then when you send "#insta" to it,it would save all your links to Instapaper.
 
 ## 7.More
 
